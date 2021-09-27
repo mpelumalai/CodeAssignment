@@ -3,5 +3,18 @@ public class Solution {
         Bird bird = new Bird();
         bird.walk();
         bird.fly();
+        bird.sing();
+
+        Duck duck = new Duck();
+        duck.sing();
+        duck.swim();
+
+        Chicken chicken = new Chicken();
+        chicken.sing();
+        chicken.fly();
+
+        Rooster rooster = new Rooster();
+        rooster.sing();
+
     }
 }

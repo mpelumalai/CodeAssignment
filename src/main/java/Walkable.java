@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Walkable {
+public interface Walkable {
+    void walk();
 }
