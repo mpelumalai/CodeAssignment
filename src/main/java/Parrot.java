@@ -1,3 +1,4 @@
+
 public class Parrot extends Bird{
 
     private String habitat;
@@ -9,7 +10,7 @@ public class Parrot extends Bird{
     @Override
     public void sing(){
 
-        if(isNotEmpty(getHabitat())){
+        if(Utils.isNotEmpty(getHabitat())){
             if(getHabitat().equals("LivingWithDog"))
                 System.out.println("Woof, woof");
             else if(getHabitat().equals("LivingWithCat"))
@@ -20,20 +21,6 @@ public class Parrot extends Bird{
             System.out.println("I am a Parrot, i can sing");
         }
 
-    }
-
-    private boolean isNotEmpty(String arg){
-        return !isEmpty(arg);
-    }
-    /**
-     * This method checks if a given String argument is empty or null
-     * @param arg
-     * @return
-     */
-    private boolean isEmpty(String arg){
-        if(null == arg || arg.trim().isEmpty())
-            return true;
-      return false;
     }
 
     public String getHabitat() {
