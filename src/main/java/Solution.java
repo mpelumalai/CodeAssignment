@@ -16,5 +16,17 @@ public class Solution {
         Rooster rooster = new Rooster();
         rooster.sing();
 
+        Parrot parrotLivingWithDog = new Parrot();
+        parrotLivingWithDog.setHabitat("LivingWithDog");
+        parrotLivingWithDog.sing();
+
+        Parrot parrotLivingWithCat = new Parrot();
+        parrotLivingWithCat.setHabitat("LivingWithCat");
+        parrotLivingWithCat.sing();
+
+        Parrot parrotLivingWithRooster = new Parrot();
+        parrotLivingWithRooster.setHabitat("LivingNearRooster");
+        parrotLivingWithRooster.sing();
+
     }
 }
